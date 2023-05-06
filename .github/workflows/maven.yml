@@ -40,4 +40,4 @@ jobs:
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
-        token: ${{ secrets.DOCKERHUB_TOKEN }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
