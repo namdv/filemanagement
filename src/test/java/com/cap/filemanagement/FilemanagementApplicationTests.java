@@ -10,4 +10,9 @@ class FilemanagementApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void test1() {
+        assert(false);
+    }
+
 }
